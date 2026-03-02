@@ -44,8 +44,7 @@
 
 ```shell
 git clone git@github.com:slpravodelov/debezium-smt-json.git
-cd debezium-smt-json
-mvn clean package
+cd debezium-smt-json && mvn clean package
 ```
 
 ## Установка SMT
