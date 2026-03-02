@@ -133,17 +133,17 @@ debezium_envelope_schema:
     - name: "ts_ms"
       type: "INT64"
       optional: true
-      description: "Время обработки события в миллисекундах"
+      description: "UNIX дата и время обработки события в миллисекундах"
       
     - name: "ts_us"
       type: "INT64"
       optional: true
-      description: "Время обработки события в микросекундах"
+      description: "UNIX дата и время обработки события в микросекундах"
       
     - name: "ts_ns"
       type: "INT64"
       optional: true
-      description: "Время обработки события в наносекундах"
+      description: "UNIX дата и время обработки события в наносекундах"
 ```
 
 ### Данные для теста SMT JSON
